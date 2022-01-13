@@ -1,0 +1,101 @@
+body.index {
+	margin: 0px;
+	padding: 0px;
+	background: #BAC6DB url("images/Helix.png") repeat center top;
+	font: normal 120% 'LatoLight', sans-serif;
+	background-size: cover;
+}
+@font-face {       
+  font-family: 'dosisextralight'; 
+  src: url('fonts/Dosis/static/Dosis-ExtraLight.ttf'); 
+  font-weight: 100;
+  font-style: normal;
+} 
+@font-face {       
+	font-family: 'Bebas';
+	src: url('fonts/Bebas_Neue/BebasNeue-Regular.ttf');
+	font-weight: 100;
+} 
+@font-face {       
+	font-family: 'LatoLight'; 
+	src: url('fonts/Lato/Lato-Light.ttf'); 
+	font-weight: 200;
+}
+@font-face {       
+	font-family: 'LatoRegular'; 
+	src: url('fonts/Lato/Lato-Regular.ttf'); 
+	font-weight: 400;
+}
+div.centered {
+	position: fixed;
+	top: 0px;
+	margin: 0px 0px 0px 0px;
+		width: 100%;
+		min-width: 100%;
+	height: 100vh;
+	min-height: 100vh;
+	z-index: 0;
+	text-align: left;
+}
+
+div#Title {
+	position: relative;
+	top: 5%;
+	width: auto;
+	text-align: center;
+}
+div#Title h1 {
+  font: 400% 'Bebas', Sans-serif;
+  color: white;
+}
+div#LogoDiv {
+	padding: 20px;
+	height: auto;
+}
+img#Logo {
+	width: 200px;
+	height: auto;
+	display: none;
+}
+div#Slogan {
+	width: 100%;
+	box-sizing: border-box;
+	position: relative;
+	top: 0;
+	padding: 1rem;
+}
+a.textLink {
+	display: block;
+	width: 100%;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+  	font: 250% 'Bebas', Sans-serif;
+}
+a.textLink:hover {
+	font-style: italic;
+}
+div#copyright {
+	width: 100%;
+	box-sizing: border-box;
+	position: absolute;
+	right: 20px;
+	bottom: 0px;
+	padding: 10px;
+	color: rgba(36, 34, 39, 0.4);
+	text-align: right;
+	font: 'LatoThin', Verdana, sans-serif;
+	font-style: italic;
+}
+
+@media (orientation: portrait) {
+	body.index {
+		background-size: auto 100vh;
+		font: normal 100% 'LatoLight', sans-serif;
+	}
+}
+@media (max-width: 600px) {
+	body.index {
+		font: normal 90% 'LatoLight', sans-serif;
+	}
+}
