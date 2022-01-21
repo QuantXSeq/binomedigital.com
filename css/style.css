@@ -4,6 +4,7 @@ body.index {
     background: #BAC6DB url("../images/Helix.png") no-repeat center top;
 	font: normal 120% 'LatoLight', sans-serif;
 	background-size: cover;
+	color: white;
 }
 @font-face {       
   font-family: 'dosisextralight'; 
@@ -17,7 +18,12 @@ body.index {
 	font-weight: 100;
 }
 @font-face {
-	font-family: 'Bebas';
+	font-family: 'Roboto';
+	src: url('../fonts/Roboto/Roboto-Light.ttf');
+	font-weight: 100;
+}
+@font-face {
+	font-family: 'OpenSans SemiBold';
 	src: url('../fonts/Open_Sans/static/OpenSans_SemiCondensed/OpenSans_SemiCondensed-SemiBold.ttf');
 	font-weight: 100;
 }
@@ -33,8 +39,8 @@ body.index {
 }
 div.centered {
 	position: fixed;
-	top: 0px;
-	margin: 0px 0px 0px 0px;
+	top: 0;
+	margin: 0;
 	width: 100%;
 	min-width: 100%;
 	height: 100vh;
@@ -45,14 +51,21 @@ div.centered {
 
 div#Title {
 	position: relative;
-	top: 5%;
+	top: 0;
 	width: auto;
 	text-align: center;
 }
 div#Title h1 {
-  font: 400% 'Bebas', Sans-serif;
+  font: 500% 'Bebas', Sans-serif;
   color: white;
+  margin: 0;
 }
+div#Title h1#ComingSoon {
+  font: 500% 'OpenSans SemiBold', Sans-serif;
+  color: white;
+  text-transform: uppercase;
+}
+
 div#LogoDiv {
 	padding: 20px;
 	height: auto;
@@ -69,7 +82,7 @@ div#Slogan {
 	top: 0;
 	padding: 1rem;
 }
-a.textLink {
+div#Slogan {
 	display: block;
 	width: 100%;
 	color: white;
