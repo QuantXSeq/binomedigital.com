@@ -1,29 +1,34 @@
 body.index {
 	margin: 0px;
 	padding: 0px;
-	background: #BAC6DB url("images/Helix.png") repeat center top;
+	background: #BAC6DB url("../images/Helix.png") repeat center top;
 	font: normal 120% 'LatoLight', sans-serif;
 	background-size: cover;
 }
 @font-face {       
   font-family: 'dosisextralight'; 
-  src: url('fonts/Dosis/static/Dosis-ExtraLight.ttf'); 
+  src: url('../fonts/Dosis/static/Dosis-ExtraLight.ttf');
   font-weight: 100;
   font-style: normal;
 } 
 @font-face {       
 	font-family: 'Bebas';
-	src: url('fonts/Bebas_Neue/BebasNeue-Regular.ttf');
+	src: url('../fonts/Bebas_Neue/BebasNeue-Regular.ttf');
 	font-weight: 100;
-} 
+}
+@font-face {
+	font-family: 'Bebas';
+	src: url('../fonts/Open_Sans/static/OpenSans_SemiCondensed/OpenSans_SemiCondensed-SemiBold.ttf');
+	font-weight: 100;
+}
 @font-face {       
 	font-family: 'LatoLight'; 
-	src: url('fonts/Lato/Lato-Light.ttf'); 
+	src: url('../fonts/Lato/Lato-Light.ttf');
 	font-weight: 200;
 }
 @font-face {       
 	font-family: 'LatoRegular'; 
-	src: url('fonts/Lato/Lato-Regular.ttf'); 
+	src: url('../fonts/Lato/Lato-Regular.ttf');
 	font-weight: 400;
 }
 div.centered {
