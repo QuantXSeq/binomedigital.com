@@ -51,7 +51,7 @@ div.centered {
 
 div#Title {
 	position: relative;
-	top: 0;
+	top: 5%;
 	width: auto;
 	text-align: center;
 }
@@ -76,13 +76,10 @@ img#Logo {
 	display: none;
 }
 div#Slogan {
-	width: 100%;
 	box-sizing: border-box;
 	position: relative;
-	top: 0;
+	top: 20px;
 	padding: 1rem;
-}
-div#Slogan {
 	display: block;
 	width: 100%;
 	color: white;
