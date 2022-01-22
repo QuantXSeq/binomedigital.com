@@ -38,6 +38,7 @@ body.index {
 	font-weight: 400;
 }
 div.centered {
+	box-sizing: border-box;
 	position: fixed;
 	top: 0;
 	margin: 0;
