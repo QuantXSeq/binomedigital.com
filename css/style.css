@@ -69,7 +69,12 @@ div#Title h2 {
 	color: white;
 	margin: 20px;
 }
-
+span.green {
+  color: rgba(48, 226, 86, 1.0);
+}
+span.blue {
+  color: rgba(74, 147, 237, 1.0);
+}
 div#LogoDiv {
 	height: auto;
 }
