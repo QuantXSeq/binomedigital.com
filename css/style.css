@@ -76,14 +76,35 @@ span.green {
 span.blue {
   color: rgba(74, 147, 237, 1.0);
 }
+
+div#Header {
+   width: 100%;
+   box-sizing: border-box;
+}
+
 div#LogoDiv {
 	height: auto;
+	width: 50%;
+	box-sizing: border-box;
 }
+
 img#Logo {
 	width: 200px;
 	height: auto;
 	display: none;
 }
+
+div#LinkList {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+div#LinkList p {
+    width: 50%;
+    box-sizing: border-box;
+    font: 120% 'LatoLight';
+}
+
 div#Slogan {
 	box-sizing: border-box;
 	position: relative;
