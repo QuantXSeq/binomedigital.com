@@ -98,6 +98,7 @@ div#LinkList p1 {
     text-align: center;
     font: 120% 'LatoRegular';
     opacity: 0.5;
+    letter-spacing: 0,5em;
 }
 
 div#LinkList p2 {
@@ -111,7 +112,9 @@ div#LinkList p2 {
     text-align: right;
     font: 120% 'LatoRegular';
     opacity: 0.5;
+    letter-spacing: 0,7em;
 }
+
 div#Title {
 	position: relative;
 	top: 20%;
@@ -121,12 +124,12 @@ div#Title {
 }
 div#Title h1#ComingSoon {
 	width: 100%;
-	font: 500% 'OpenSansBold', Sans-serif;
+	font: 400% 'OpenSansBold', Sans-serif;
 	line-height: 100%;
 	color: white;
-	letter-spacing: -0.08em;
+	letter-spacing: -0.05em;
 	text-transform: uppercase;
-	margin: 20px;
+	margin: 20px 0px 20px 0px;
 	text-align: center;
 	display: block;
 	float: left;
@@ -134,7 +137,7 @@ div#Title h1#ComingSoon {
 }
 
 div#Title h2 {
-	font: 500% 'Bebas', Sans-serif;
+	font: 500% 'LatoLight', Sans-serif;
 	color: white;
 	margin: 20px;
 }
@@ -154,7 +157,7 @@ div#Slogan {
 	color: white;
 	text-decoration: none;
 	text-align: center;
-  	font: 250% 'Bebas', Sans-serif;
+  	font: 250% 'LatoLight', Sans-serif;
 }
 a.textLink:hover {
 	font-style: italic;
