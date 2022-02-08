@@ -53,17 +53,20 @@ div.centered {
 
 div#Title {
 	position: relative;
-	top: 10%;
+	top: 20%;
 	width: auto;
 	height: auto;
 	text-align: center;
 }
 div#Title h1#ComingSoon {
+	width: 100%;
 	font: 500% 'OpenSans SemiBold', Sans-serif;
 	line-height: 100%;
 	color: white;
 	text-transform: uppercase;
 	margin: 20px;
+	text-align: center;
+	display: block;
 }
 div#Title h2 {
 	font: 500% 'Bebas', Sans-serif;
@@ -78,6 +81,7 @@ span.blue {
 }
 
 div#Header {
+   display: block;
    width: 100%;
    box-sizing: border-box;
 }
@@ -86,6 +90,8 @@ div#LogoDiv {
 	height: auto;
 	width: 50%;
 	box-sizing: border-box;
+	padding: 0;
+    float: left;
 }
 
 img#Logo {
@@ -95,13 +101,37 @@ img#Logo {
 }
 
 div#LinkList {
+    display: block;
+    margin: 20px 0px;
+    padding: 0;
+    height: auto;
     width: 50%;
     box-sizing: border-box;
+    float: left;
+    text-align: right;
 }
 
-div#LinkList p {
-    width: 50%;
+div#LinkList p1 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: 33%;
     box-sizing: border-box;
+    float: right;
+    text-align: center;
+    font: 120% 'LatoLight';
+}
+
+div#LinkList p2 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: 33%;
+    box-sizing: border-box;
+    float: right;
+    text-align: right;
     font: 120% 'LatoLight';
 }
 
