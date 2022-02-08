@@ -124,10 +124,9 @@ div#Title {
 }
 div#Title h1#ComingSoon {
 	width: 100%;
-	font: 400% 'OpenSansBold', Sans-serif;
+	font: 450% 'OpenSansBold', Sans-serif;
 	line-height: 100%;
 	color: white;
-	letter-spacing: -0.05em;
 	text-transform: uppercase;
 	margin: 20px 0px 20px 0px;
 	text-align: center;
@@ -137,9 +136,10 @@ div#Title h1#ComingSoon {
 }
 
 div#Title h2 {
-	font: 500% 'LatoLight', Sans-serif;
+	font: 400% 'LatoLight', Sans-serif;
 	color: white;
 	margin: 20px;
+	text-transform: uppercase;
 }
 span.green {
   color: rgba(48, 226, 86, 1.0);
@@ -158,6 +158,7 @@ div#Slogan {
 	text-decoration: none;
 	text-align: center;
   	font: 250% 'LatoLight', Sans-serif;
+  	opacity: 0.8;
 }
 a.textLink:hover {
 	font-style: italic;
