@@ -23,8 +23,13 @@ body.index {
 	font-weight: 100;
 }
 @font-face {
-	font-family: 'OpenSans SemiBold';
+	font-family: 'OpenSansSemiBold';
 	src: url('../fonts/Open_Sans/static/OpenSans_SemiCondensed/OpenSans_SemiCondensed-SemiBold.ttf');
+	font-weight: 100;
+}
+@font-face {
+	font-family: 'OpenSansBold';
+	src: url('../fonts/Open_Sans/static/OpenSans/OpenSans-Bold.ttf');
 	font-weight: 100;
 }
 @font-face {       
@@ -49,35 +54,6 @@ div.centered {
 	min-height: 100vh;
 	z-index: 0;
 	text-align: left;
-}
-
-div#Title {
-	position: relative;
-	top: 20%;
-	width: auto;
-	height: auto;
-	text-align: center;
-}
-div#Title h1#ComingSoon {
-	width: 100%;
-	font: 500% 'OpenSans SemiBold', Sans-serif;
-	line-height: 100%;
-	color: white;
-	text-transform: uppercase;
-	margin: 20px;
-	text-align: center;
-	display: block;
-}
-div#Title h2 {
-	font: 500% 'Bebas', Sans-serif;
-	color: white;
-	margin: 20px;
-}
-span.green {
-  color: rgba(48, 226, 86, 1.0);
-}
-span.blue {
-  color: rgba(74, 147, 237, 1.0);
 }
 
 div#Header {
@@ -120,7 +96,8 @@ div#LinkList p1 {
     box-sizing: border-box;
     float: right;
     text-align: center;
-    font: 120% 'LatoLight';
+    font: 120% 'LatoRegular';
+    opacity: 0.5;
 }
 
 div#LinkList p2 {
@@ -132,9 +109,41 @@ div#LinkList p2 {
     box-sizing: border-box;
     float: right;
     text-align: right;
-    font: 120% 'LatoLight';
+    font: 120% 'LatoRegular';
+    opacity: 0.5;
+}
+div#Title {
+	position: relative;
+	top: 20%;
+	width: auto;
+	height: auto;
+	text-align: center;
+}
+div#Title h1#ComingSoon {
+	width: 100%;
+	font: 500% 'OpenSansBold', Sans-serif;
+	line-height: 100%;
+	color: white;
+	letter-spacing: -0.08em;
+	text-transform: uppercase;
+	margin: 20px;
+	text-align: center;
+	display: block;
+	float: left;
+	font-stretch: semi-condensed;
 }
 
+div#Title h2 {
+	font: 500% 'Bebas', Sans-serif;
+	color: white;
+	margin: 20px;
+}
+span.green {
+  color: rgba(48, 226, 86, 1.0);
+}
+span.blue {
+  color: rgba(74, 147, 237, 1.0);
+}
 div#Slogan {
 	box-sizing: border-box;
 	position: relative;
