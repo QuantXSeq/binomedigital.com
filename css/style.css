@@ -159,7 +159,22 @@ div#Slogan {
 	text-align: center;
   	font: 250% 'LatoLight', Sans-serif;
   	opacity: 0.8;
+  	float: left;
 }
+
+div#LoadingDiv {
+	height: auto;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0;
+	float: left;
+}
+
+img.load {
+	width: 60%;
+	height: auto;
+}
+
 a.textLink:hover {
 	font-style: italic;
 }
