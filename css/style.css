@@ -226,6 +226,17 @@ img.logo {
 	    background-size: auto 100vh;
 		font: normal 100% 'LatoLight', sans-serif;
 	}
+	img.logo {
+        margin: 5px 10px;
+        width: 100px;
+    }
+
+    img.load {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
 	.slider-container #sliderVideo {
 		position: absolute;
 		width: auto;
@@ -238,9 +249,10 @@ img.logo {
 		background-color: black;
 		backgound-size: cover;
 	}
+
 }
 @media (max-width: 600px) {
 	body.index {
-		font: normal 90% 'LatoLight', sans-serif;
+		font: normal 60% 'LatoLight', sans-serif;
 	}
 }
