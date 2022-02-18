@@ -137,6 +137,7 @@ div#Title h1#ComingSoon {
 
 div#Title h2 {
 	font: 400% 'LatoLight', Sans-serif;
+	line-height: 100%;
 	color: white;
 	margin: 20px;
 	text-transform: uppercase;
@@ -145,12 +146,13 @@ span.green {
   color: rgba(48, 226, 86, 1.0);
 }
 span.blue {
-  color: rgba(74, 147, 237, 1.0);
+  color: rgba(100,149,237, 1.0);
+  font-family: 'LatoRegular';
 }
 div#Slogan {
 	box-sizing: border-box;
 	position: relative;
-	top: 100px;
+	margin-top: 0px;
 	padding: 1rem;
 	display: block;
 	width: 100%;
@@ -168,8 +170,6 @@ div#LoadingDiv {
 	box-sizing: border-box;
 	padding: 0;
 	text-align: center;
-	position: relative;
-	top: 100px;
 }
 
 img.load {
