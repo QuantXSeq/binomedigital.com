@@ -23,8 +23,13 @@ body.index {
 	font-weight: 100;
 }
 @font-face {
-	font-family: 'OpenSans SemiBold';
+	font-family: 'OpenSansSemiBold';
 	src: url('../fonts/Open_Sans/static/OpenSans_SemiCondensed/OpenSans_SemiCondensed-SemiBold.ttf');
+	font-weight: 100;
+}
+@font-face {
+	font-family: 'OpenSansBold';
+	src: url('../fonts/Open_Sans/static/OpenSans/OpenSans-Bold.ttf');
 	font-weight: 100;
 }
 @font-face {       
@@ -51,51 +56,128 @@ div.centered {
 	text-align: left;
 }
 
-div#Title {
-	position: relative;
-	top: 10%;
-	width: auto;
-	height: auto;
-	text-align: center;
+div#Header {
+   display: block;
+   width: 100%;
+   box-sizing: border-box;
 }
-div#Title h1#ComingSoon {
-	font: 500% 'OpenSans SemiBold', Sans-serif;
-	line-height: 100%;
-	color: white;
-	text-transform: uppercase;
-	margin: 20px;
-}
-div#Title h2 {
-	font: 500% 'Bebas', Sans-serif;
-	color: white;
-	margin: 20px;
-}
-span.green {
-  color: rgba(48, 226, 86, 1.0);
-}
-span.blue {
-  color: rgba(74, 147, 237, 1.0);
-}
+
 div#LogoDiv {
 	height: auto;
+	width: 50%;
+	box-sizing: border-box;
+	padding: 0;
+    float: left;
 }
+
 img#Logo {
 	width: 200px;
 	height: auto;
 	display: none;
 }
+
+div#LinkList {
+    display: block;
+    margin: 20px 0px;
+    padding: 0;
+    height: auto;
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    text-align: right;
+}
+
+div#LinkList p1 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: 33%;
+    box-sizing: border-box;
+    float: right;
+    text-align: center;
+    font: 120% 'LatoRegular';
+    opacity: 0.5;
+    letter-spacing: 0,5em;
+}
+
+div#LinkList p2 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: 33%;
+    box-sizing: border-box;
+    float: right;
+    text-align: right;
+    font: 120% 'LatoRegular';
+    opacity: 0.5;
+    letter-spacing: 0,7em;
+}
+
+div#Title {
+	position: relative;
+	top: 20%;
+	width: auto;
+	height: auto;
+	text-align: center;
+}
+div#Title h1#ComingSoon {
+	width: 100%;
+	font: 450% 'OpenSansBold', Sans-serif;
+	line-height: 100%;
+	color: white;
+	text-transform: uppercase;
+	margin: 20px 0px 20px 0px;
+	text-align: center;
+	display: block;
+	float: left;
+	font-stretch: semi-condensed;
+}
+
+div#Title h2 {
+	font: 400% 'LatoLight', Sans-serif;
+	line-height: 100%;
+	color: white;
+	margin: 20px;
+	text-transform: uppercase;
+}
+span.green {
+  color: rgba(48, 226, 86, 1.0);
+}
+span.blue {
+  color: rgba(100,149,237, 1.0);
+  font-family: 'LatoRegular';
+}
 div#Slogan {
 	box-sizing: border-box;
 	position: relative;
-	top: 20px;
+	margin-top: 0px;
 	padding: 1rem;
 	display: block;
 	width: 100%;
 	color: white;
 	text-decoration: none;
 	text-align: center;
-  	font: 250% 'Bebas', Sans-serif;
+  	font: 250% 'LatoLight', Sans-serif;
+  	opacity: 0.8;
+  	float: left;
 }
+
+div#LoadingDiv {
+	height: auto;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0;
+	text-align: center;
+}
+
+img.load {
+	width: 60%;
+	height: auto;
+	text-align: center;
+}
+
 a.textLink:hover {
 	font-style: italic;
 }
@@ -144,6 +226,17 @@ img.logo {
 	    background-size: auto 100vh;
 		font: normal 100% 'LatoLight', sans-serif;
 	}
+	img.logo {
+        margin: 5px 10px;
+        width: 100px;
+    }
+
+    img.load {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
 	.slider-container #sliderVideo {
 		position: absolute;
 		width: auto;
@@ -156,9 +249,10 @@ img.logo {
 		background-color: black;
 		backgound-size: cover;
 	}
+
 }
 @media (max-width: 600px) {
 	body.index {
-		font: normal 90% 'LatoLight', sans-serif;
+		font: normal 60% 'LatoLight', sans-serif;
 	}
 }
